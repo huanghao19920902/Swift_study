@@ -1,0 +1,172 @@
+{
+  "images" : [
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "minimum-system-version" : "11.0",
+      "scale" : "3x",
+      "subtype" : "2436h",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "minimum-system-version" : "8.0",
+      "scale" : "3x",
+      "subtype" : "736h",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "scale" : "1x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "scale" : "2x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "to-status-bar",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "to-status-bar",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "orientation" : "landscape"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "2436h",
+      "filename" : "750X1334iPhoneXPortraitiOS11_375x812pt@3x.png",
+      "minimum-system-version" : "11.0",
+      "orientation" : "portrait",
+      "scale" : "3x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "736h",
+      "filename" : "750X1334iPhonePortraitiOS89_414x736pt@3x.png",
+      "minimum-system-version" : "8.0",
+      "orientation" : "portrait",
+      "scale" : "3x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "667h",
+      "filename" : "750X1334iPhonePortraitiOS89_375x667pt@2x.png",
+      "minimum-system-version" : "8.0",
+      "orientation" : "portrait",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "minimum-system-version" : "7.0",
+      "scale" : "2x",
+      "filename" : "750X1334iPhonePortraitiOS789_320x480pt@2x.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "subtype" : "retina4",
+      "filename" : "750X1334iPhonePortraitiOS789_320x568pt@2x.png",
+      "minimum-system-version" : "7.0",
+      "orientation" : "portrait",
+      "scale" : "2x"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "scale" : "1x",
+      "filename" : "750X1334iPhonePortraitiOS56_320x480pt.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "filename" : "750X1334iPhonePortraitiOS56_320x480pt@2x.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "iphone",
+      "scale" : "2x",
+      "filename" : "750X1334iPhonePortraitiOS56_320x568pt@2x.png",
+      "subtype" : "retina4",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "scale" : "1x",
+      "filename" : "750X1334iPadPortraitiOS789_768x1024pt.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "minimum-system-version" : "7.0",
+      "scale" : "2x",
+      "filename" : "750X1334iPadPortraitiOS789_768x1024pt@2x.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "to-status-bar",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "filename" : "750X1334iPadPortraitWOSBiOS56_768x1004pt.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "to-status-bar",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "filename" : "750X1334iPadPortraitWOSBiOS56_768x1004pt@2x.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "scale" : "1x",
+      "filename" : "750X1334iPadPortraitiOS56_768x1024pt.png",
+      "orientation" : "portrait"
+    },
+    {
+      "extent" : "full-screen",
+      "idiom" : "ipad",
+      "scale" : "2x",
+      "filename" : "750X1334iPadPortraitiOS56_768x1024pt@2x.png",
+      "orientation" : "portrait"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
