@@ -145,7 +145,6 @@
 				1D12AAC220ECBBE200071D91 /* ViewController.swift */,
 				1DC78D10210AFB2C00624155 /* KKLMacro.swift */,
 				1D12AACC20ECBBE200071D91 /* Info.plist */,
-				1DC78D0C210AEFF000624155 /* Images.xcassets */,
 			);
 			path = KKLSwift;
 			sourceTree = "<group>";
@@ -183,6 +182,7 @@
 		1D33739220F50B11006CD886 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				1DC78D0C210AEFF000624155 /* Images.xcassets */,
 				1D33739320F50BC3006CD886 /* plist */,
 			);
 			path = Resource;
@@ -259,7 +259,6 @@
 				1D12AABA20ECBBE200071D91 /* Frameworks */,
 				1D12AABB20ECBBE200071D91 /* Resources */,
 				2495494FB04F25A9A3E1DA06 /* [CP] Embed Pods Frameworks */,
-				76BC064A5169084C67225BCA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,8 +277,6 @@
 				1D12AACD20ECBBE300071D91 /* Sources */,
 				1D12AACE20ECBBE300071D91 /* Frameworks */,
 				1D12AACF20ECBBE300071D91 /* Resources */,
-				6BFE4FCC9134EC1CA738CEF6 /* [CP] Embed Pods Frameworks */,
-				998AB766A31A813717FBA5B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,8 +296,6 @@
 				1D12AAD820ECBBE300071D91 /* Sources */,
 				1D12AAD920ECBBE300071D91 /* Frameworks */,
 				1D12AADA20ECBBE300071D91 /* Resources */,
-				18099C6ED94D7D312ABFD74E /* [CP] Embed Pods Frameworks */,
-				7EB467971FDF5DC8D9BE1F58 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -404,43 +399,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		18099C6ED94D7D312ABFD74E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKLSwiftUITests/Pods-KKLSwiftUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2495494FB04F25A9A3E1DA06 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KKLSwift/Pods-KKLSwift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-KKLSwift/Pods-KKLSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKLSwift/Pods-KKLSwift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KKLSwift/Pods-KKLSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		65FD4A66C9F5AD2793301397 /* [CP] Check Pods Manifest.lock */ = {
@@ -459,66 +435,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6BFE4FCC9134EC1CA738CEF6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKLSwiftTests/Pods-KKLSwiftTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		76BC064A5169084C67225BCA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKLSwift/Pods-KKLSwift-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7EB467971FDF5DC8D9BE1F58 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKLSwiftUITests/Pods-KKLSwiftUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		998AB766A31A813717FBA5B1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KKLSwiftTests/Pods-KKLSwiftTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F4C4B9555783DB17A16A3CBB /* [CP] Check Pods Manifest.lock */ = {

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SnapKit
+
 class UserCenterVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
 	
 	var tableView:UITableView?

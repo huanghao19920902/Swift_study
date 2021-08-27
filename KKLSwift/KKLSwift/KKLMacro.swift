@@ -8,6 +8,10 @@
 
 import UIKit
 
+import RxSwift
+import SnapKit
+
+
 /// 当前app信息
 let GetAppInfo = Bundle.main.infoDictionary
 //objectForInfoDictionaryKey("CFBundleShortVersionString")

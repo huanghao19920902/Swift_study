@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Masonry
 import SnapKit
 
 class ViewController: UIViewController {
