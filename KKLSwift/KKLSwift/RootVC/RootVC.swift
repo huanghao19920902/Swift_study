@@ -27,8 +27,8 @@ class RootVC: UITabBarController {
 		
 		let nav = UINavigationController.init(rootViewController: viewController)
 		nav.navigationBar.barTintColor = UIColor.init(red: 110/255.0, green: 185/255.0, blue: 43/255.0, alpha: 1)
-		let dict : NSDictionary = [NSAttributedStringKey.foregroundColor : UIColor.white,NSAttributedStringKey.font : UIFont.boldSystemFont(ofSize: 17)]
-		nav.navigationBar.titleTextAttributes = dict as! [NSAttributedStringKey : AnyObject]
+        let dict : NSDictionary = [NSAttributedString.Key.foregroundColor : UIColor.white,NSAttributedString.Key.font : UIFont.boldSystemFont(ofSize: 17)]
+        nav.navigationBar.titleTextAttributes = dict as! [NSAttributedString.Key : AnyObject]
 		
 		
 		viewController.navigationItem.title = title
@@ -40,10 +40,10 @@ class RootVC: UITabBarController {
 //		nav.tabBarItem.selectedImage = UIImage.init(named: selendImage)
 //		nav.tabBarItem.badgeColor = UIColor.white
 	
-		nav.tabBarItem.setTitleTextAttributes({[NSAttributedStringKey.foregroundColor : UIColor.gray]}(), for: .normal)
-		nav.tabBarItem.setTitleTextAttributes({[NSAttributedStringKey.foregroundColor : UIColor.init(red: 110/255.0, green: 185/255.0, blue: 43/255.0, alpha: 1)]}(), for: .selected)
+        nav.tabBarItem.setTitleTextAttributes({[NSAttributedString.Key.foregroundColor : UIColor.gray]}(), for: .normal)
+        nav.tabBarItem.setTitleTextAttributes({[NSAttributedString.Key.foregroundColor : UIColor.init(red: 110/255.0, green: 185/255.0, blue: 43/255.0, alpha: 1)]}(), for: .selected)
 		
-		self.addChildViewController(nav)
+        self.addChild(nav)
 		
 	}
 
