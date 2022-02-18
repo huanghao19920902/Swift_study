@@ -18,6 +18,7 @@
 		1D33739520F50BF0006CD886 /* Usercenter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D33739420F50BF0006CD886 /* Usercenter.plist */; };
 		1D4F726C20F8A92400978835 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4F726B20F8A92400978835 /* RootVC.swift */; };
 		1D629DF520FC9D3100A3E326 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D629DF420FC9D3100A3E326 /* Encryption.swift */; };
+		1D922FDB270FDDCF00C07D84 /* GuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D922FDA270FDDCF00C07D84 /* GuideVC.swift */; };
 		1DC78D0D210AEFF000624155 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DC78D0C210AEFF000624155 /* Images.xcassets */; };
 		1DC78D11210AFB2C00624155 /* KKLMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC78D10210AFB2C00624155 /* KKLMacro.swift */; };
 		1DC78D16210B128C00624155 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC78D15210B128C00624155 /* LoginVC.swift */; };
@@ -63,6 +64,7 @@
 		1D33739420F50BF0006CD886 /* Usercenter.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Usercenter.plist; sourceTree = "<group>"; };
 		1D4F726B20F8A92400978835 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
 		1D629DF420FC9D3100A3E326 /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
+		1D922FDA270FDDCF00C07D84 /* GuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideVC.swift; sourceTree = "<group>"; };
 		1DC78D00210ACF7D00624155 /* KKLSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKLSwift-Bridging-Header.h"; sourceTree = "<group>"; };
 		1DC78D0C210AEFF000624155 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1DC78D10210AFB2C00624155 /* KKLMacro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKLMacro.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 				1DC78D17210B1FAA00624155 /* LoginHeadCell.swift */,
 				1DC78D1A210C3F8F00624155 /* LoginInputCell.swift */,
 				1DC78D1F210C49E700624155 /* LoginActionCell.swift */,
+				1D922FDA270FDDCF00C07D84 /* GuideVC.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D4F726C20F8A92400978835 /* RootVC.swift in Sources */,
+				1D922FDB270FDDCF00C07D84 /* GuideVC.swift in Sources */,
 				1DC78D18210B1FAA00624155 /* LoginHeadCell.swift in Sources */,
 				1D04850520F464020035B71E /* UserCenterModel.swift in Sources */,
 				1D12AAC320ECBBE200071D91 /* ViewController.swift in Sources */,
