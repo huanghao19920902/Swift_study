@@ -33,7 +33,7 @@ class LoginInputCell: KKLBaseCell {
 	}
 
 	
-	
+	//懒加载
 	lazy var inputTextField : UITextField = {
 		let input = UITextField.init()
 		input.font = kfont(font: 15)

@@ -12,8 +12,9 @@ class RootVC: UITabBarController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		self.addChrendVC(viewController: UserCenterVC(), title: "首页", normalImane: "icon_Home", selendImage: "icon_Home")
-		self.addChrendVC(viewController: UserCenterVC(), title: "直播", normalImane: "icon_Live", selendImage: "icon_Home")
+        view.backgroundColor = .white
+		self.addChrendVC(viewController: MainVC(), title: "首页", normalImane: "icon_Home", selendImage: "icon_Home")
+		self.addChrendVC(viewController: MainDataVC(), title: "直播", normalImane: "icon_Live", selendImage: "icon_Home")
 		self.addChrendVC(viewController: UserCenterVC(), title: "同学圈", normalImane: "icon_Social", selendImage: "icon_Home")
 		self.addChrendVC(viewController: UserCenterVC(), title: "成长驿站", normalImane: "icon_Grow", selendImage: "icon_Home")
 		self.addChrendVC(viewController: UserCenterVC(), title: "我的", normalImane: "icon_Mine", selendImage: "icon_Home")

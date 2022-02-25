@@ -4,7 +4,7 @@ target 'KKLSwift' do
 	use_frameworks!
 	
 	pod 'RxSwift'
-	pod 'SnapKit'
+	pod 'SnapKit' //布局
 	
 	target 'KKLSwiftTests' do
 		inherit! :search_paths
